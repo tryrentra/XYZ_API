@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const connection = () => {
-    mongoose.connect('mongodb+srv://jicroofficial:hello_lode_yeh_secure_password_hai_samjha@database.vhcuc8z.mongodb.net/Admin?retryWrites=true&w=majority', {
+    mongoose.connect('mongodb+srv://jicroofficial:hello_lode_yeh_secure_password_hai_samjha@database.vhcuc8z.mongodb.net/Admins?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     })
